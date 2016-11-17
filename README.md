@@ -7,8 +7,7 @@
 $ npm install<br>
 $ npm install -g webpack<br>
 $ webpack<br>
-$ webpack --watch -d
-               
+$ webpack --watch -d    
 4. run apps ( allready configured on localhost:8080)
 
 ## Run Spring Boot
@@ -18,7 +17,7 @@ $ ./mvnw spring-boot:run<br>
 ## BDD
 
 ### Install bdd (Docker mariaDB)
-docker file: </b>/docker-compose.xml</b>
+docker file: /docker-compose.xml<br>
 $ vim docker-compose.xml<br>
 $ dc up -d && dc ps<br>
 
@@ -32,11 +31,6 @@ Note : table will be automatically updated (created/updated/deleted...etc...) af
 
 
 ## Sources:
-- Acl Import:
-https://github.com/lordlothar99/strategy-spring-security-acl
-
-- Spring Security Module:
-https://github.com/spring-projects/spring-security
-
-- Original Project:
-https://github.com/spring-guides/tut-react-and-spring-data-rest
+- [Acl Import](https://github.com/lordlothar99/strategy-spring-security-acl)
+- [Spring Security Module](https://github.com/spring-projects/spring-security)
+- [Original Project](https://github.com/spring-guides/tut-react-and-spring-data-rest)
