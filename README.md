@@ -3,24 +3,24 @@
 ## Installation
 1. git clone
 2. open in IntelJ (use maven / auto import)
-3. run bash : 
-<b>$ npm install</b>
-<b>$ npm install -g webpack</b>
-<b>$ webpack</b>
-<b>$ webpack --watch -d</b>
+3. run bash : <br>
+$ npm install<br>
+$ npm install -g webpack<br>
+$ webpack<br>
+$ webpack --watch -d
                
 4. run apps ( allready configured on localhost:8080)
 
 ## Run Spring Boot
-<b>$ ./mvnw spring-boot:run</b>
+$ ./mvnw spring-boot:run<br>
 
 
 ## BDD
 
 ### Install bdd (Docker mariaDB)
 docker file: </b>/docker-compose.xml</b>
-<b>$ vim docker-compose.xml</b>
-<b>$ dc up -d && dc ps</b>
+$ vim docker-compose.xml<br>
+$ dc up -d && dc ps<br>
 
 ### Configure BDD (on Spring)
 1. Create model (unified with your sql table, i.e customer.java)
